@@ -10,6 +10,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
     />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Tailwind Library -->
     <link
       rel="stylesheet"
@@ -33,7 +35,7 @@
             href="https://www.creative-tim.com/learning-lab/tailwindcss-starter-project#/presentation"
           >
             <!-- Nav Title -->
-            Creative Tim
+            CSTL.dev
           </a>
           <!-- Hamburger Menu (Mobile) -->
           <button
@@ -98,7 +100,12 @@
         style="min-height: 75vh"
       >
         <!-- Background Image -->
-        <div class="absolute top-0 w-full h-full bg-center bg-cover">
+        <div
+          class="absolute top-0 w-full h-full bg-center bg-cover"
+          style="
+            background: url(https://images.unsplash.com/photo-1607441029088-c2510410efff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+          "
+        >
           <!-- Overlay -->
           <span
             id="blackOverlay"
@@ -110,10 +117,17 @@
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div class="pr-12">
-                <h1 class="text-white font-semibold text-5xl">
+                <h1
+                  class="text-white font-semibold text-5xl"
+                  data-aos="fade-up"
+                >
                   Welcome your epiphany.
                 </h1>
-                <p class="mt-4 text-lg text-gray-300">
+                <p
+                  class="mt-4 text-lg text-gray-300"
+                  data-aos="fade-right"
+                  data-aos-delay="1000"
+                >
                   Lorem ipsum dolor sit. Eum totam aspernatur aliquam
                   praesentium aperiam magni, dignissimos, atque incidunt fuga
                   nulla distinctio eligendi enim placeat nesciunt, soluta maxime
@@ -152,7 +166,11 @@
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap">
             <!-- Card -->
-            <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+            <div
+              class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center"
+              data-aos="fade-right"
+              data-aos-delay="1200"
+            >
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
@@ -173,7 +191,11 @@
               </div>
             </div>
             <!-- Card -->
-            <div class="w-full md:w-4/12 px-4 text-center">
+            <div
+              class="w-full md:w-4/12 px-4 text-center"
+              data-aos="fade-up"
+              data-aos-delay="1400"
+            >
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
@@ -195,7 +217,11 @@
               </div>
             </div>
             <!-- Card -->
-            <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+            <div
+              class="pt-6 w-full md:w-4/12 px-4 text-center"
+              data-aos="fade-left"
+              data-aos-delay="1600"
+            >
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
@@ -221,7 +247,10 @@
           <!-- Text Box and Card Container -->
           <div class="flex flex-wrap items-center mt-32">
             <!-- Text Box Container -->
-            <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+            <div
+              class="w-full md:w-5/12 px-4 mr-auto ml-auto"
+              data-aos="zoom-in-right"
+            >
               <!-- Text Box -->
               <div
                 class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
@@ -253,14 +282,18 @@
             </div>
 
             <!-- Image Cap & Text Card -->
-            <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+            <div
+              class="w-full md:w-4/12 px-4 mr-auto ml-auto"
+              data-aos="flip-left"
+              data-aos-delay="1000"
+            >
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-orange-500"
               >
                 <!-- Image -->
                 <img
                   alt="..."
-                  src=""
+                  src="https://images.unsplash.com/photo-1607498675691-cd041bf18ade?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
                   class="w-full align-middle rounded-t-lg"
                 />
                 <blockquote class="relative p-8 mb-4">
@@ -318,12 +351,23 @@
         <!-- Section Container -->
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <div
+              class="w-full md:w-4/12 ml-auto mr-auto px-4"
+              data-aos="flip-right"
+              data-aos-delay="1000"
+            >
               <!-- Image -->
-              <img alt="..." class="max-w-full rounded-lg shadow-lg" src="" />
+              <img
+                alt="..."
+                class="max-w-full rounded-lg shadow-lg"
+                src="https://images.unsplash.com/photo-1602484073216-96cf43330bb1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=700&q=80"
+              />
             </div>
             <!-- Text Box Container-->
-            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div
+              class="w-full md:w-5/12 ml-auto mr-auto px-4"
+              data-aos="zoom-in-left"
+            >
               <div class="md:pr-12">
                 <div
                   class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
@@ -413,12 +457,15 @@
           <!-- Flex Row Container -->
           <div class="flex flex-wrap">
             <!-- Item -->
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div
+              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+              data-aos="fade-in"
+            >
               <div class="px-6">
                 <!-- Image -->
                 <img
                   alt="..."
-                  src=""
+                  src="https://randomuser.me/api/portraits/men/40.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px"
                 />
@@ -455,12 +502,16 @@
               </div>
             </div>
             <!-- Item -->
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div
+              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+              data-aos="fade-in"
+              data-aos-delay="400"
+            >
               <div class="px-6">
                 <!-- Image -->
                 <img
                   alt="..."
-                  src=""
+                  src="https://randomuser.me/api/portraits/women/0.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px"
                 />
@@ -490,12 +541,16 @@
               </div>
             </div>
             <!-- Item -->
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div
+              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+              data-aos="fade-in"
+              data-aos-delay="600"
+            >
               <div class="px-6">
                 <!-- Image -->
                 <img
                   alt="..."
-                  src=""
+                  src="https://randomuser.me/api/portraits/men/64.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px"
                 />
@@ -532,12 +587,16 @@
               </div>
             </div>
             <!-- Item -->
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div
+              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+              data-aos="fade-in"
+              data-aos-delay="800"
+            >
               <div class="px-6">
                 <!-- Image -->
                 <img
                   alt="..."
-                  src=""
+                  src="https://randomuser.me/api/portraits/women/65.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px"
                 />
@@ -623,7 +682,11 @@
           <!-- Flex Row Container -->
           <div class="flex flex-wrap mt-12 justify-center">
             <!-- Item -->
-            <div class="w-full lg:w-3/12 px-4 text-center">
+            <div
+              class="w-full lg:w-3/12 px-4 text-center"
+              data-aos="fade-in"
+              data-aos-delay="600"
+            >
               <div
                 class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
               >
@@ -640,7 +703,11 @@
               </p>
             </div>
             <!-- Item -->
-            <div class="w-full lg:w-3/12 px-4 text-center">
+            <div
+              class="w-full lg:w-3/12 px-4 text-center"
+              data-aos="fade-in"
+              data-aos-delay="400"
+            >
               <div
                 class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
               >
@@ -657,7 +724,11 @@
               </p>
             </div>
             <!-- Item -->
-            <div class="w-full lg:w-3/12 px-4 text-center">
+            <div
+              class="w-full lg:w-3/12 px-4 text-center"
+              data-aos="fade-in"
+              data-aos-delay="200"
+            >
               <div
                 class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
               >
@@ -677,7 +748,7 @@
       <!-- Contact Form -->
       <section class="relative block py-24 lg:pt-0 bg-gray-900">
         <!-- Container -->
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto px-4" data-aos="fade-in">
           <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
             <div class="w-full lg:w-6/12 px-4">
               <div
@@ -910,6 +981,19 @@
     </footer>
     <!-- End of Footer Section -->
   </body>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      delay: 200, // values from 0 to 3000, with step 50ms
+      duration: 1500, // values from 0 to 3000, with step 50ms
+      easing: "ease", // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+    });
+  </script>
   <!-- Navigation Script -->
   <script>
     function toggleNavbar(collapseID) {
